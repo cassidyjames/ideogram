@@ -19,5 +19,38 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
+public class Ideogram : Gtk.Application {
+    public Ideogram () {
+        Object (application_id: "com.github.cassidyjames.ideogram",
+        flags: ApplicationFlags.FLAGS_NONE);
+    }
 
+    protected override void activate () {
+        if (get_windows ().length () > 0) {
+            get_windows ().data.present ();
+            return;
+        }
+
+        var main_window = new MainWindow (this);
+        main_window.show_all ();
+
+        var quit_action = new SimpleAction ("quit", null);
+
+        add_action (quit_action);
+        set_accels_for_action ("app.quit", {"Escape"});
+
+        quit_action.activate.connect (() => {
+            if (main_window != null) {
+                main_window.destroy ();
+            }
+        });
+    }
+
+    private static int main (string[] args) {
+        Gtk.init (ref args);
+
+        var app = new Ideogram ();
+        return app.run (args);
+    }
+}
 
