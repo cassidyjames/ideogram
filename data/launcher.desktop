@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Ideogram
+GenericName=Emoji Input
+Comment=Insert emoji anywhere
+Categories=Utility;
+Exec=com.github.cassidyjames.ideogram
+Icon=com.github.cassidyjames.ideogram
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=com.github.cassidyjames.ideogram
+Keywords=emoji;insert;paste;emoticons;smiley;smilies;pictures;icons;☺;
+
