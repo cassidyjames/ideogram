@@ -21,7 +21,8 @@ executable(
         dependency ('glib-2.0'),
         dependency ('gtk+-3.0'),
         dependency ('x11'),
-        dependency ('xtst')
+        dependency ('xtst'),
+        meson.get_compiler('vala').find_library('posix'),
     ],
     install: true
 )

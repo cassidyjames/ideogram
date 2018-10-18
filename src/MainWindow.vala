@@ -21,6 +21,7 @@
 
 public class MainWindow : Gtk.Window {
     private Gtk.Entry entry;
+    private bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
 
     public MainWindow (Gtk.Application application) {
         Object (
@@ -28,7 +29,6 @@ public class MainWindow : Gtk.Window {
             hide_titlebar_when_maximized: true,
             icon_name: "com.github.cassidyjames.ideogram",
             resizable: false,
-            skip_taskbar_hint: true,
             title: _("Ideogram"),
             window_position: Gtk.WindowPosition.CENTER
         );
@@ -38,13 +38,20 @@ public class MainWindow : Gtk.Window {
         get_style_context ().add_class ("ideogram");
 
         stick ();
-        set_keep_above (true);
+        set_keep_above (!is_terminal);
+        skip_taskbar_hint = !is_terminal;
 
         entry = new Gtk.Entry ();
+        entry.get_style_context ().add_class ("hidden");
+
+        var close_button = new Gtk.Button.from_icon_name ("window-close-symbolic", Gtk.IconSize.DIALOG);
+        close_button.get_style_context ().add_class ("close");
 
         var grid = new Gtk.Grid ();
         grid.halign = grid.valign = Gtk.Align.CENTER;
-        grid.add (entry);
+
+        grid.attach (entry, 0, 0);
+        grid.attach (close_button, 0, 1);
 
         add (grid);
         maximize ();
@@ -53,6 +60,11 @@ public class MainWindow : Gtk.Window {
             Gtk.Clipboard.get_default (this.get_display ()).set_text (entry.text, -1);
             hide ();
             paste ();
+            close ();
+        });
+
+        close_button.clicked.connect (() => {
+            close ();
         });
     }
 

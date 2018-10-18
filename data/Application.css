@@ -23,3 +23,13 @@
   background: rgba(0, 0, 0, 0.25);
 }
 
+.hidden {
+  opacity: 0;
+}
+
+.close {
+  background: rgba(25, 25, 25, 0.8);
+  border-radius: 999px;
+  color: white;
+}
+
