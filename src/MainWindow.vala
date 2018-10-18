@@ -25,7 +25,8 @@ public class MainWindow : Gtk.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            decorated: false,
+            // decorated: false, // NOTE: Have to decorate, otherwise there's a black background
+            hide_titlebar_when_maximized: true,
             icon_name: "com.github.cassidyjames.ideogram",
             resizable: false,
             title: _("Ideogram"),
@@ -34,12 +35,13 @@ public class MainWindow : Gtk.Window {
     }
 
     construct {
+        get_style_context ().add_class ("ideogram");
+
         stick ();
         // set_keep_above (true);
 
         entry = new Gtk.Entry ();
         entry.enable_emoji_completion = true;
-        // entry.insert_emoji ();
 
         var temp = new Gtk.Button.from_icon_name ("face-cool");
         temp.clicked.connect (() => {
@@ -52,14 +54,7 @@ public class MainWindow : Gtk.Window {
         grid.add (temp);
 
         add (grid);
-
-        var screen = Gdk.Screen.get_default ();
-        var display = screen.get_display ();
-        var monitor = display.get_primary_monitor ();
-        var geometry = monitor.geometry;
-
-        height_request = geometry.height;
-        width_request = geometry.width;
+        maximize ();
 
         entry.changed.connect (() => {
             Gtk.Clipboard.get_default (this.get_display ()).set_text (entry.text, -1);
