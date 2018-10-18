@@ -38,7 +38,7 @@ public class MainWindow : Gtk.Window {
         get_style_context ().add_class ("ideogram");
 
         stick ();
-        // set_keep_above (true);
+        set_keep_above (true);
 
         entry = new Gtk.Entry ();
 
