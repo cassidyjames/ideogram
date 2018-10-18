@@ -17,8 +17,11 @@ executable(
     join_paths ('src', 'Application.vala'),
     join_paths ('src', 'MainWindow.vala'),
     dependencies: [
+        dependency ('gdk-x11-3.0'),
         dependency ('glib-2.0'),
-        dependency ('gtk+-3.0')
+        dependency ('gtk+-3.0'),
+        dependency ('x11'),
+        dependency ('xtst')
     ],
     install: true
 )
