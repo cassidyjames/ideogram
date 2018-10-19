@@ -21,6 +21,7 @@
 
 .ideogram {
   background: rgba(0, 0, 0, 0);
+  opacity: 0.9;
 }
 
 .hidden,
@@ -35,3 +36,16 @@ decoration {
     0 10px 10px rgba(0, 0, 0, 0);
 }
 
+.h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  font-size: 4em;
+  background: white;
+  border-radius: 4px;
+  box-shadow:
+    0 0 0 1px @decoration_border_color,
+    0 14px 28px rgba(0, 0, 0, 0.35),
+    0 10px 10px rgba(0, 0, 0, 0.22);
+  margin: 0 12px 12px;
+  padding: 12px 24px;
+}

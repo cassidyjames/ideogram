@@ -45,8 +45,8 @@ public class MainWindow : Gtk.Window {
         entry = new Gtk.Entry ();
         entry.get_style_context ().add_class ("hidden");
 
-        var label = new Gtk.Label (_("Insert an Emoji"));
-        // TODO: style
+        var label = new Gtk.Label (_("Select an Emoji"));
+        label.get_style_context ().add_class ("h1");
 
         var grid = new Gtk.Grid ();
         grid.halign = Gtk.Align.CENTER;
