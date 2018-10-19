@@ -7,13 +7,20 @@
   <name>Ideogram</name>
   <summary>Insert emoji anywhere 🎉</summary>
   <description>
-    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍</p>
-    <p>Head to System Settings → Keyboard → Shortcuts to add your own shortcut to open Ideogram, like ⌘+E.</p>
+    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Hit ⌘+E to open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍</p>
   </description>
 
   <provides>
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
+
+  <releases>
+    <release version="1.1.0" date="2018-10-19">
+      <description>
+        <p>Autostart, plus built-in keyboard shortcut (⌘+E).</p>
+      </description>
+    </release>
+  </releases>
 
   <releases>
     <release version="1.0.0" date="2018-10-18">
