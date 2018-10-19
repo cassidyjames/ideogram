@@ -32,7 +32,6 @@ public class Ideogram : Gtk.Application {
         }
 
         var main_window = new MainWindow (this);
-        main_window.show_all ();
 
         var quit_action = new SimpleAction ("quit", null);
 
@@ -49,6 +48,8 @@ public class Ideogram : Gtk.Application {
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/com/github/cassidyjames/ideogram/Application.css");
         Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+        main_window.show_all ();
     }
 
     private static int main (string[] args) {
