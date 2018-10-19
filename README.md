@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/cassidyjames/ideogram.svg?branch=master)](https://travis-ci.com/cassidyjames/ideogram)
+
 <p align="center">
   <img src="data/icons/128.svg" alt="Icon" />
 </p>
