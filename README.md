@@ -12,4 +12,6 @@
 
 ## Insert emoji anywhere, even in non-native apps
 
-Work in progress.
+Quickly insert emoji anywhere you can paste text, including non-native apps. Open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍
+
+Head to System Settings → Keyboard → Shortcuts to add your own shortcut to open Ideogram, like ⌘+E.
