@@ -7,15 +7,16 @@
   <name>Ideogram</name>
   <summary>Insert emoji anywhere 🎉</summary>
   <description>
-    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Just hit ⌘+E to pull up the emoji picker, choose the emoji you want, and it's instantly pasted. 👍</p>
+    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍</p>
+    <p>Head to System Settings → Keyboard → Shortcuts to add your own shortcut to open Ideogram, like ⌘+E.</p>
   </description>
 
   <provides>
-    <binary>com.github.cassidyjames.dippi</binary>
+    <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
 
   <releases>
-    <release version="1.0.0" date="2018-10-17">
+    <release version="1.0.0" date="2018-10-18">
       <description>
         <p>Initial release for AppCenter</p>
       </description>
@@ -62,7 +63,6 @@
 
   <url type="homepage">https://cassidyjames.com</url>
   <url type="bugtracker">https://github.com/cassidyjames/ideogram/issues</url>
-  <url type="translate">https://github.com/cassidyjames/ideogram/tree/master/po#readme</url>
 
   <custom>
     <value key="x-appcenter-color-primary">#fff394</value>
