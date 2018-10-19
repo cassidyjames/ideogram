@@ -1,7 +1,13 @@
-# ideogram
+<p align="center">
+  <img src="data/icons/128.svg" alt="Icon" />
+</p>
+<h1 align="center">Ideogram</h1>
+<p align="center">
+  <a href="https://appcenter.elementary.io/com.github.cassidyjames.ideogram"><img src="https://appcenter.elementary.io/badge.svg?new" alt="Get it on AppCenter" /></a>
+</p>
 
-![Icon](data/icons/128.svg)
+![Screenshot](data/screenshot.png?raw=true)
 
-![Screenshot](data/screenshot.png)
+## Insert emoji anywhere, even in non-native apps
 
-Insert emoji anywhere, even in non-native apps.
+Work in progress.
