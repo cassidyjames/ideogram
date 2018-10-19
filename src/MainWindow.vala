@@ -43,6 +43,8 @@ public class MainWindow : Gtk.Window {
         set_keep_above (true);
 
         entry = new Gtk.Entry ();
+        entry.halign = Gtk.Align.CENTER;
+        entry.width_request = entry.height_request = 0;
         entry.get_style_context ().add_class ("hidden");
 
         var label = new Gtk.Label (_("Select an Emoji"));

@@ -25,7 +25,13 @@
 
 .hidden,
 .titlebar {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  color: rgba(0, 0, 0, 0);
+  font-size: 0.001px;
+  margin: 0;
   opacity: 0;
+  padding: 0;
 }
 
 decoration {
@@ -38,7 +44,7 @@ decoration {
 .h1 {
   font-family: Raleway, sans-serif;
   font-weight: 200;
-  font-size: 4em;
+  font-size: 3em;
   background: white;
   border-radius: 4px;
   box-shadow:
