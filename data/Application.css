@@ -20,16 +20,18 @@
 */
 
 .ideogram {
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0);
 }
 
-.hidden {
+.hidden,
+.titlebar {
   opacity: 0;
 }
 
-.close {
-  background: rgba(25, 25, 25, 0.8);
-  border-radius: 999px;
-  color: white;
+decoration {
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0),
+    0 14px 28px rgba(0, 0, 0, 0),
+    0 10px 10px rgba(0, 0, 0, 0);
 }
 

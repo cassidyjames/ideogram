@@ -26,11 +26,13 @@ public class MainWindow : Gtk.Window {
     public MainWindow (Gtk.Application application) {
         Object (
             application: application,
-            hide_titlebar_when_maximized: true,
+            height_request: 580,
             icon_name: "com.github.cassidyjames.ideogram",
             resizable: false,
+            skip_taskbar_hint: true,
             title: _("Ideogram"),
-            window_position: Gtk.WindowPosition.CENTER
+            width_request: 580,
+            window_position: Gtk.WindowPosition.CENTER_ALWAYS
         );
     }
 
@@ -38,23 +40,23 @@ public class MainWindow : Gtk.Window {
         get_style_context ().add_class ("ideogram");
 
         stick ();
-        set_keep_above (!is_terminal);
-        skip_taskbar_hint = !is_terminal;
+        set_keep_above (true);
 
         entry = new Gtk.Entry ();
         entry.get_style_context ().add_class ("hidden");
 
-        var close_button = new Gtk.Button.from_icon_name ("window-close-symbolic", Gtk.IconSize.DIALOG);
-        close_button.get_style_context ().add_class ("close");
+        var label = new Gtk.Label (_("Insert an Emoji"));
+        // TODO: style
 
         var grid = new Gtk.Grid ();
-        grid.halign = grid.valign = Gtk.Align.CENTER;
+        grid.halign = Gtk.Align.CENTER;
+        grid.valign = Gtk.Align.END;
 
         grid.attach (entry, 0, 0);
-        grid.attach (close_button, 0, 1);
+        grid.attach (label, 0, 1);
 
         add (grid);
-        maximize ();
+        entry.grab_focus ();
 
         entry.changed.connect (() => {
             Gtk.Clipboard.get_default (this.get_display ()).set_text (entry.text, -1);
@@ -63,9 +65,16 @@ public class MainWindow : Gtk.Window {
             close ();
         });
 
-        close_button.clicked.connect (() => {
-            close ();
-        });
+        if (is_terminal == false) {
+            entry.focus_in_event.connect (() => {
+                close ();
+            });
+
+            focus_out_event.connect ((event) => {
+                close ();
+                return Gdk.EVENT_STOP;
+            });
+        }
     }
 
     public override void map () {
