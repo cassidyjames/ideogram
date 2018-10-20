@@ -7,7 +7,7 @@
   <name>Ideogram</name>
   <summary>Insert emoji anywhere 🎉</summary>
   <description>
-    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Hit ⌘+E to open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍</p>
+    <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Hit ⌘+E to open the emoji picker, choose the emoji you want, and it's instantly pasted. 👍 Change the shortcut in System Settings → Keyboard → Shortcuts → Custom.</p>
   </description>
 
   <provides>
@@ -15,9 +15,9 @@
   </provides>
 
   <releases>
-    <release version="1.1.0" date="2018-10-19">
+    <release version="1.0.1" date="2018-10-20">
       <description>
-        <p>Autostart, plus built-in keyboard shortcut (⌘+E).</p>
+        <p>Set a default keyboard shortcut (⌘+E).</p>
       </description>
     </release>
   </releases>
