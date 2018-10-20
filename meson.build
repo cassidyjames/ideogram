@@ -16,6 +16,7 @@ executable(
     asresources,
     join_paths ('src', 'Application.vala'),
     join_paths ('src', 'MainWindow.vala'),
+    join_paths ('src', 'Settings', 'CustomShortcutSettings.vala'),
     dependencies: [
         dependency ('gdk-x11-3.0'),
         dependency ('glib-2.0'),

@@ -20,8 +20,11 @@
 */
 
 public class Ideogram : Gtk.Application {
+    public const string SHORTCUT = "<Super>e";
+    public const string ID = "com.github.cassidyjames.ideogram";
+
     public Ideogram () {
-        Object (application_id: "com.github.cassidyjames.ideogram",
+        Object (application_id: ID,
         flags: ApplicationFlags.FLAGS_NONE);
     }
 
@@ -50,6 +53,24 @@ public class Ideogram : Gtk.Application {
         Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         main_window.show_all ();
+
+        // Set shortcut
+        CustomShortcutSettings.init ();
+        bool has_shortcut = false;
+        foreach (var shortcut in CustomShortcutSettings.list_custom_shortcuts ()) {
+            if (shortcut.command == ID) {
+                // CustomShortcutSettings.edit_shortcut (shortcut.relocatable_schema, SHORTCUT);
+                has_shortcut = true;
+                return;
+            }
+        }
+        if (!has_shortcut) {
+            var shortcut = CustomShortcutSettings.create_shortcut ();
+            if (shortcut != null) {
+                CustomShortcutSettings.edit_shortcut (shortcut, SHORTCUT);
+                CustomShortcutSettings.edit_command (shortcut, ID);
+            }
+        }
     }
 
     private static int main (string[] args) {
