@@ -41,10 +41,7 @@ decoration {
     0 10px 10px rgba(0, 0, 0, 0);
 }
 
-.h1 {
-  font-family: Raleway, sans-serif;
-  font-weight: 200;
-  font-size: 3em;
+.fake-window {
   background: white;
   border-radius: 4px;
   box-shadow:
@@ -52,5 +49,12 @@ decoration {
     0 14px 28px rgba(0, 0, 0, 0.35),
     0 10px 10px rgba(0, 0, 0, 0.22);
   margin: 0 12px 12px;
-  padding: 12px 24px;
+  padding: 12px 6px;
 }
+
+.h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  font-size: 2.5em;
+}
+

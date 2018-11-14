@@ -20,6 +20,7 @@ executable(
     dependencies: [
         dependency ('gdk-x11-3.0'),
         dependency ('glib-2.0'),
+        dependency ('granite'),
         dependency ('gtk+-3.0'),
         dependency ('x11'),
         dependency ('xtst'),

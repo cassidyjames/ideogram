@@ -47,15 +47,28 @@ public class MainWindow : Gtk.Window {
         entry.width_request = entry.height_request = 0;
         entry.get_style_context ().add_class ("hidden");
 
-        var label = new Gtk.Label (_("Select an Emoji"));
-        label.get_style_context ().add_class ("h1");
+        var title = new Gtk.Label (_("Select Emoji to Insert"));
+        title.get_style_context ().add_class (Granite.STYLE_CLASS_H1_LABEL);
+
+        var copy = new Gtk.Label (_("Selecting will copy the emoji to the clipboard and paste into any focused text input."));
+        copy.max_width_chars = 50;
+        copy.wrap = true;
+
+        var fake_window = new Gtk.Grid ();
+        fake_window.halign = Gtk.Align.CENTER;
+        fake_window.row_spacing = 12;
+        fake_window.valign = Gtk.Align.END;
+        fake_window.get_style_context ().add_class ("fake-window");
+
+        fake_window.attach (title, 0, 0);
+        fake_window.attach (copy, 0, 1);
 
         var grid = new Gtk.Grid ();
         grid.halign = Gtk.Align.CENTER;
         grid.valign = Gtk.Align.END;
 
         grid.attach (entry, 0, 0);
-        grid.attach (label, 0, 1);
+        grid.attach (fake_window, 0, 1);
 
         add (grid);
         entry.grab_focus ();
