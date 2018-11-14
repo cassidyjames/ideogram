@@ -16,9 +16,9 @@
   </provides>
 
   <releases>
-    <release version="1.1.0" date="2018-11-14">
+    <release version="1.1.1" date="2018-11-14">
       <description>
-        <p>ℹ More descriptive in-app copy.</p>
+        <p>ℹ More descriptive in-app copy and a yellow accent color.</p>
       </description>
     </release>
   </releases>

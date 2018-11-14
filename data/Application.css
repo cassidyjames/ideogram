@@ -19,6 +19,8 @@
 * Authored by: Cassidy James Blaede <c@ssidyjam.es>
 */
 
+@define-color colorAccent @BANANA_700;
+
 .ideogram {
   background: rgba(0, 0, 0, 0);
 }
