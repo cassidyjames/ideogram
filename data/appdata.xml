@@ -81,8 +81,8 @@
   <url type="bugtracker">https://github.com/cassidyjames/ideogram/issues</url>
 
   <custom>
-    <value key="x-appcenter-color-primary">#525</value>
-    <value key="x-appcenter-color-primary-text">#fffffc</value>
+    <value key="x-appcenter-color-primary">@BANANA_100</value>
+    <value key="x-appcenter-color-primary-text">@BLACK_500</value>
     <value key="x-appcenter-suggested-price">2</value>
   </custom>
 </component>
