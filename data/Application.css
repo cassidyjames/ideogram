@@ -22,14 +22,14 @@
 @define-color colorAccent @BANANA_700;
 
 .ideogram {
-  background: rgba(0, 0, 0, 0);
+  background: alpha(@theme_bg_color, 0);
 }
 
 .hidden,
 .titlebar {
-  background: rgba(0, 0, 0, 0);
+  background: alpha(@theme_bg_color, 0);
   border: none;
-  color: rgba(0, 0, 0, 0);
+  color: alpha(@theme_bg_color, 0);
   font-size: 0.001px;
   margin: 0;
   opacity: 0;
@@ -38,18 +38,18 @@
 
 decoration {
   box-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0),
-    0 14px 28px rgba(0, 0, 0, 0),
-    0 10px 10px rgba(0, 0, 0, 0);
+    0 0 0 1px alpha(@theme_bg_color, 0),
+    0 14px 28px alpha(@theme_bg_color, 0),
+    0 10px 10px alpha(@theme_bg_color, 0);
 }
 
 .fake-window {
-  background: white;
+  background: @theme_bg_color;
   border-radius: 4px;
   box-shadow:
     0 0 0 1px @decoration_border_color,
-    0 14px 28px rgba(0, 0, 0, 0.35),
-    0 10px 10px rgba(0, 0, 0, 0.22);
+    0 14px 28px alpha(black, 0.35),
+    0 10px 10px alpha(black, 0.22);
   margin: 0 12px 12px;
   padding: 12px 6px;
 }
