@@ -11,6 +11,8 @@
     <p>Not feeling the default keyboard shortcut? Head to System Settings → Keyboard → Shortcuts → Custom to set it to anything you’d like.</p>
   </description>
 
+  <launchable type="desktop-id">com.github.cassidyjames.ideogram.desktop</launchable>
+
   <provides>
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
