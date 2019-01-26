@@ -1,0 +1,71 @@
+# Norwegian Bokmal translations for com.github.cassidyjames.ideogram package.
+# Copyright (C) 2019 THE com.github.cassidyjames.ideogram'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.github.cassidyjames.ideogram package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.github.cassidyjames.ideogram\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-25 19:01-0700\n"
+"PO-Revision-Date: 2019-01-25 19:01-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:7
+#: data/launcher.desktop.in:3 src/MainWindow.vala:33
+msgid "Ideogram"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
+msgid "Insert emoji anywhere 🎉"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
+msgid ""
+"Quickly insert emoji anywhere you can paste text, including non-native apps. "
+"Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
+"instantly copied and pasted into any focused text input. 👍"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
+msgid ""
+"Not feeling the default keyboard shortcut? Head to System Settings → "
+"Keyboard → Shortcuts → Custom to set it to anything you’d like."
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:88
+msgid "Cassidy James Blaede"
+msgstr ""
+
+#: data/launcher.desktop.in:4
+msgid "Emoji Input"
+msgstr ""
+
+#: data/launcher.desktop.in:5
+msgid "Insert emoji anywhere"
+msgstr ""
+
+#: data/launcher.desktop.in:8
+msgid "com.github.cassidyjames.ideogram"
+msgstr ""
+
+#: data/launcher.desktop.in:12
+msgid ""
+"emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
+msgstr ""
+
+#: src/MainWindow.vala:50
+msgid "Select Emoji to Insert"
+msgstr ""
+
+#: src/MainWindow.vala:53
+msgid ""
+"Selecting will copy the emoji to the clipboard and paste into any focused "
+"text input."
+msgstr ""
