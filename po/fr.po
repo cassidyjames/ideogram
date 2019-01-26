@@ -63,7 +63,7 @@ msgstr "com.github.cassidyjames.ideogram"
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
-msgstr "émoji;insérer;copier;coller;émoticônes;smiley;smileys;images;icônes;clavier☺;""
+msgstr "émoji;insérer;copier;coller;émoticônes;smiley;smileys;images;icônes;clavier☺;"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
