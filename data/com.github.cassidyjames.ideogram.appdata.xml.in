@@ -14,7 +14,12 @@
   <provides>
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
-  <releases>
+  <releases> 
+    <release version="1.2.1" date="2019-01-27">
+      <description>
+        <p>Bonjour! French translations thanks to @NathanBnm</p>
+      </description>
+    </release>
     <release version="1.2.0" date="2019-01-25">
       <description>
         <p>Ideogram is now translatable.</p>
