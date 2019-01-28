@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-25 19:01-0700\n"
+"POT-Creation-Date: 2019-01-28 14:26-0700\n"
 "PO-Revision-Date: 2019-01-25 19:01-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -38,7 +38,7 @@ msgid ""
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:88
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:93
 msgid "Cassidy James Blaede"
 msgstr ""
 
