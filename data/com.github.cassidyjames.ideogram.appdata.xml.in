@@ -15,7 +15,7 @@
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
   <releases>
-    <release version="1.2.2" date="2019-01-27">
+    <release version="1.2.2" date="2019-01-28">
       <description>
         <p>¡Hola! Spanish translations thanks to Alain (@alainm23)</p>
       </description>
