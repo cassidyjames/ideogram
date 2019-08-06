@@ -10,43 +10,57 @@
     <p>Quickly insert emoji anywhere you can paste text, including non-native apps. Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s instantly copied and pasted into any focused text input. 👍</p>
     <p>Not feeling the default keyboard shortcut? Head to System Settings → Keyboard → Shortcuts → Custom to set it to anything you’d like.</p>
   </description>
-
+  <launchable type="desktop-id">com.github.cassidyjames.ideogram.desktop</launchable>
   <provides>
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
-
   <releases>
+    <release version="1.2.2" date="2019-01-28">
+      <description>
+        <p>¡Hola! Spanish translations thanks to Alain (@alainm23)</p>
+      </description>
+    </release>
+    <release version="1.2.1" date="2019-01-27">
+      <description>
+        <p>Bonjour! French translations thanks to @NathanBnm</p>
+      </description>
+    </release>
+    <release version="1.2.0" date="2019-01-25">
+      <description>
+        <p>Ideogram is now translatable.</p>
+      </description>
+    </release>
+    <release version="1.1.4" date="2019-01-04">
+      <description>
+        <p>Happy new year! This release contains AppData fixes.</p>
+      </description>
+    </release>
     <release version="1.1.3" date="2018-11-16">
       <description>
         <p>More reliable styling</p>
       </description>
     </release>
-
     <release version="1.1.2" date="2018-11-14">
       <description>
         <p>ℹ More descriptive in-app copy and a yellow accent color.</p>
       </description>
     </release>
-
     <release version="1.0.1" date="2018-10-20">
       <description>
         <p>⌨ Set a default keyboard shortcut (⌘+E).</p>
       </description>
     </release>
-
     <release version="1.0.0" date="2018-10-18">
       <description>
         <p>🎉 Initial release for AppCenter</p>
       </description>
     </release>
   </releases>
-
   <screenshots>
     <screenshot type="default">
       <image>https://raw.githubusercontent.com/cassidyjames/ideogram/master/data/screenshot.png</image>
     </screenshot>
   </screenshots>
-
   <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">none</content_attribute>
     <content_attribute id="violence-fantasy">none</content_attribute>
@@ -76,15 +90,16 @@
     <content_attribute id="money-purchasing">none</content_attribute>
     <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
-
   <developer_name>Cassidy James Blaede</developer_name>
-
   <url type="homepage">https://cassidyjames.com</url>
   <url type="bugtracker">https://github.com/cassidyjames/ideogram/issues</url>
-
+  <url type="translate">https://github.com/cassidyjames/ideogram/tree/master/po#readme</url>
+  <url type="donation">https://cassidyjames.com/pay</url>
+  <url type="help">https://cassidyjames.com/support</url>
+  <!--url type="contact">https://cassidyjames.com/support</url-->
   <custom>
-    <value key="x-appcenter-color-primary">@BANANA_100</value>
-    <value key="x-appcenter-color-primary-text">@BLACK_500</value>
+    <value key="x-appcenter-color-primary">#fff394</value>
+    <value key="x-appcenter-color-primary-text">#333333</value>
     <value key="x-appcenter-suggested-price">2</value>
   </custom>
 </component>

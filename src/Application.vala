@@ -99,6 +99,12 @@ public class Ideogram : Gtk.Application {
     }
 
     private static int main (string[] args) {
+        /*
+        * Workaround for https://github.com/cassidyjames/ideogram/issues/26
+        * Without GTK_CSD set, the fake window won't be styled correctly.
+        */
+        GLib.Environment.set_variable("GTK_CSD", "1", true);
+
         Gtk.init (ref args);
 
         var app = new Ideogram ();
