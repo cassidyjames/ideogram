@@ -1,3 +1,4 @@
+# Galician translations for com.github.cassidyjames.ideogram package.
 # Copyright (C) 2019 THE com.github.cassidyjames.ideogram'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.ideogram package.
 # Automatically generated, 2019.
