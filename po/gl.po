@@ -8,22 +8,23 @@ msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-28 14:26-0700\n"
-"PO-Revision-Date: 2019-01-25 19:01-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2019-10-16 18:56+0200\n"
+"Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:33
 msgid "Ideogram"
-msgstr ""
+msgstr "Ideogram"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
 msgid "Insert emoji anywhere 🎉"
-msgstr ""
+msgstr "Insira cariñas en calquera lugar 🎉"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
 msgid ""
@@ -31,40 +32,50 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
+"Insira rapidamente cariñas en calquera lugar onde poida pegar texto, "
+"incluídos aplicativos non nativos. Prema ⌘ + E para abrir o selector de "
+"emoticonas, elixa o que desexe, e copie e pegue instantaneamente en calquera "
+"entrada de texto enfocado. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
+"Non lle gusta o atallo de teclado predeterminado? Diríxase a Axustes do "
+"sistema → Teclado → Atallos → Personalizado para configuralo como desexe."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:93
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Emoji Input"
-msgstr ""
+msgstr "Emoticona de entrada"
 
 #: data/launcher.desktop.in:5
 msgid "Insert emoji anywhere"
-msgstr ""
+msgstr "Insira cariñas en calquera lugar"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
-msgstr ""
+msgstr "com.github.cassidyjames.ideogram"
 
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
 msgstr ""
+"emoticona;emoji;inserir;copiar;pegar;emoticonas;sorrinte;sorrisos;imaxes;"
+"iconas;teclado;☺;"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr ""
+msgstr "Elixa unha emoticona para inserir"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
+"Ao seleccionar, copiará a emoticona ao portapapeis e pegarase en calquera "
+"entrada de texto enfocada."
