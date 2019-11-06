@@ -55,13 +55,21 @@ public class Ideogram : Gtk.Application {
         if (lookup != null) {
             var desktop_settings = new Settings (DESKTOP_SCHEMA);
             var gtk_settings = Gtk.Settings.get_default ();
-            desktop_settings.bind (DARK_KEY, gtk_settings, "gtk_application_prefer_dark_theme", SettingsBindFlags.DEFAULT);
+            desktop_settings.bind (
+              DARK_KEY, gtk_settings,
+              "gtk_application_prefer_dark_theme",
+              SettingsBindFlags.DEFAULT
+            );
         }
 
         // CSS provider
         var provider = new Gtk.CssProvider ();
         provider.load_from_resource ("/com/github/cassidyjames/ideogram/Application.css");
-        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        Gtk.StyleContext.add_provider_for_screen (
+          Gdk.Screen.get_default (),
+          provider,
+          Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        );
 
         main_window.show_all ();
 
@@ -85,11 +93,10 @@ public class Ideogram : Gtk.Application {
     }
 
     private static int main (string[] args) {
-        /*
-        * Workaround for https://github.com/cassidyjames/ideogram/issues/26
-        * Without GTK_CSD set, the fake window won't be styled correctly.
-        */
-        GLib.Environment.set_variable("GTK_CSD", "1", true);
+        // NOTE: Workaround for https://github.com/cassidyjames/ideogram/issues/26
+        // Without GTK_CSD set, the fake window won't be styled correctly.
+
+        GLib.Environment.set_variable ("GTK_CSD", "1", true);
 
         Gtk.init (ref args);
 
@@ -97,4 +104,3 @@ public class Ideogram : Gtk.Application {
         return app.run (args);
     }
 }
-

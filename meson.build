@@ -33,4 +33,3 @@ subdir('data')
 subdir('po')
 
 meson.add_install_script(join_paths('meson', 'post_install.py'))
-

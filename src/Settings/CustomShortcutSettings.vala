@@ -127,4 +127,3 @@ class CustomShortcutSettings : Object {
         GLib.Settings.sync ();
     }
 }
-
