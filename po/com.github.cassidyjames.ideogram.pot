@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 20:16+0000\n"
+"POT-Creation-Date: 2019-11-06 20:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,31 +40,31 @@ msgid ""
 msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
-msgid "Translation updates"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
-msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
-msgid "Italian translations thanks to Mirko Brombin"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:24
-msgid "Galacian translations thanks to @riesp"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:26
 msgid "Code cleanup"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:28
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
 msgid "Fixed GTK_CSD issue on other OSes"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:29
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
 msgid "Improved code style"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
+msgid "Translation updates"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:27
+msgid "Dutch translations thanks to Heimen Stoffels"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:28
+msgid "Italian translations thanks to Mirko Brombin"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:29
+msgid "Galacian translations thanks to @riesp"
 msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:35
