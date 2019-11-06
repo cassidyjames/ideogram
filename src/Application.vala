@@ -1,5 +1,5 @@
 /*
-* Copyright ⓒ 2018 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2019 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -24,8 +24,10 @@ public class Ideogram : Gtk.Application {
     public const string ID = "com.github.cassidyjames.ideogram";
 
     public Ideogram () {
-        Object (application_id: ID,
-        flags: ApplicationFlags.FLAGS_NONE);
+        Object (
+            application_id: ID,
+            flags: ApplicationFlags.FLAGS_NONE
+        );
     }
 
     protected override void activate () {

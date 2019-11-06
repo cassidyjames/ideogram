@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-28 14:26-0700\n"
+"POT-Creation-Date: 2019-11-06 20:16+0000\n"
 "PO-Revision-Date: 2019-01-25 19:01-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -44,7 +44,67 @@ msgstr ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:93
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
+msgid "Translation updates"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
+msgid "Dutch translations thanks to Heimen Stoffels"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
+msgid "Italian translations thanks to Mirko Brombin"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:24
+msgid "Galacian translations thanks to @riesp"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:26
+msgid "Code cleanup"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:28
+msgid "Fixed GTK_CSD issue on other OSes"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:29
+msgid "Improved code style"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:35
+msgid "¡Hola! Spanish translations thanks to Alain (@alainm23)"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:40
+msgid "Bonjour! French translations thanks to @NathanBnm"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:45
+msgid "Ideogram is now translatable."
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:50
+msgid "Happy new year! This release contains AppData fixes."
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:55
+msgid "More reliable styling"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:60
+msgid "ℹ More descriptive in-app copy and a yellow accent color."
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:65
+msgid "⌨ Set a default keyboard shortcut (⌘+E)."
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:70
+msgid "🎉 Initial release for AppCenter"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:108
 msgid "Cassidy James Blaede"
 msgstr "Cassidy James Blaede"
 
