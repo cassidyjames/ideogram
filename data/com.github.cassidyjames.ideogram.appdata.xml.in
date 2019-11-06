@@ -17,7 +17,17 @@
   <releases>
     <release version="1.3.0" date="2019-11-06">
       <description>
+        <p>Translation updates</p>
+        <ul>
+          <li>Dutch translations thanks to Heimen Stoffels</li>
+          <li>Italian translations thanks to Mirko Brombin</li>
+          <li>Galacian translations thanks to @riesp</li>
+        </ul>
         <p>Code cleanup</p>
+        <ul>
+          <li>Fixed GTK_CSD issue on other OSes</li>
+          <li>Improved code style</li>
+        </ul>
       </description>
     </release>
     <release version="1.2.2" date="2019-01-28">
