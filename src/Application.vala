@@ -24,8 +24,10 @@ public class Ideogram : Gtk.Application {
     public const string ID = "com.github.cassidyjames.ideogram";
 
     public Ideogram () {
-        Object (application_id: ID,
-        flags: ApplicationFlags.FLAGS_NONE);
+        Object (
+            application_id: ID,
+            flags: ApplicationFlags.FLAGS_NONE
+        );
     }
 
     protected override void activate () {
