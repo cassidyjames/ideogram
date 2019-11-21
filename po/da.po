@@ -24,7 +24,7 @@ msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
 msgid "Insert emoji anywhere 🎉"
-msgstr ""
+msgstr "Indsæt emoji hvor som helst 🎉"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
 msgid ""
@@ -32,12 +32,17 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
+"Indsæt hurtigt emoji hvilket som helst sted du kan indsætte tekst, inclusive ikke indbyggede apps. "
+"Tryk ⌘+E for at åbne emoji vælgeren, vælg den emoji du vil, og "
+"den bliver øjeblikkeligt kopieret og indsat ind i det tekstfelt der har focus. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
+"Bryder du dig ikke om standard tastaturgenvejen? Gå ind i System Indstillinger → "
+"Tastatur → Genveje → Tilpasset"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Code cleanup"
@@ -101,31 +106,34 @@ msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:108
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Emoji Input"
-msgstr ""
+msgstr "Emoji Input"
 
 #: data/launcher.desktop.in:5
 msgid "Insert emoji anywhere"
-msgstr ""
+msgstr "Indsæt emoji hvor som helst"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
-msgstr ""
+msgstr "com.github.cassidyjames.ideogram"
 
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
 msgstr ""
+"emoji;indsæt;kopier;indsæt;emoticons;smiley;smilies;billeder;ikoner;tastatur;☺;"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr ""
+msgstr "Vælg Emoji at Indsætte"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
+"Den valgte emoji vil blive kopieret til udklipsholderen og indsat i det tekstfelt "
+"der har fokus."
