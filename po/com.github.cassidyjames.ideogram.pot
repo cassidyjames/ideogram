@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-06 20:45+0000\n"
+"POT-Creation-Date: 2020-02-17 21:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,66 +40,75 @@ msgid ""
 msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
-msgid "Code cleanup"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
-msgid "Fixed GTK_CSD issue on other OSes"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
-msgid "Improved code style"
-msgstr ""
-
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:34
 msgid "Translation updates"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:27
-msgid "Dutch translations thanks to Heimen Stoffels"
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
+msgid "Danish translations thanks to Rasmus Lindegaard"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:28
-msgid "Italian translations thanks to Mirko Brombin"
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
+msgid "Polish translations thanks to Michał Nowakowski"
 msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:29
+msgid "Code cleanup"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:31
+msgid "Fixed GTK_CSD issue on other OSes"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:32
+msgid "Improved code style"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:36
+msgid "Dutch translations thanks to Heimen Stoffels"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:37
+msgid "Italian translations thanks to Mirko Brombin"
+msgstr ""
+
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:38
 msgid "Galacian translations thanks to @riesp"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:35
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:44
 msgid "¡Hola! Spanish translations thanks to Alain (@alainm23)"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:40
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:49
 msgid "Bonjour! French translations thanks to @NathanBnm"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:45
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:54
 msgid "Ideogram is now translatable."
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:50
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:59
 msgid "Happy new year! This release contains AppData fixes."
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:55
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:64
 msgid "More reliable styling"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:60
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:69
 msgid "ℹ More descriptive in-app copy and a yellow accent color."
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:65
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:74
 msgid "⌨ Set a default keyboard shortcut (⌘+E)."
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:70
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:79
 msgid "🎉 Initial release for AppCenter"
 msgstr ""
 
-#: data/com.github.cassidyjames.ideogram.appdata.xml.in:108
+#: data/com.github.cassidyjames.ideogram.appdata.xml.in:117
 msgid "Cassidy James Blaede"
 msgstr ""
 
