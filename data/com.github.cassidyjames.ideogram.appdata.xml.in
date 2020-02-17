@@ -15,6 +15,11 @@
     <binary>com.github.cassidyjames.ideogram</binary>
   </provides>
   <releases>
+    <release version="1.3.2" date="2020-02-17">
+      <description>
+        <p>Fix .desktop translation error</p>
+      </description>
+    </release>
     <release version="1.3.1" date="2020-02-17">
       <description>
         <p>Translation updates</p>
