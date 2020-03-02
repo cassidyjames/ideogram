@@ -44,7 +44,6 @@ msgstr ""
 "Varsayılan klavye kısayolunu bilmiyormusunuz? Sistem Ayarlarına Git → "
 "İstediğiniz bir şeye ayarlamak için Klavye → Kısayollar → Özel."
 
-
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Code cleanup"
 msgstr "Kod temizleme"
