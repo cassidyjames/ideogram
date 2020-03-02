@@ -117,7 +117,7 @@ msgstr "Emojiyi istediğiniz yere ekleyin"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
-msgstr "com.github.cassidyjames.ideogra"
+msgstr "com.github.cassidyjames.ideogram"
 
 #: data/launcher.desktop.in:12
 msgid ""
