@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 20:45+0000\n"
 "PO-Revision-Date: 2019-01-25 19:01-0700\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: @fs3o5\n"
 "Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:33
 msgid "Ideogram"
-msgstr ""
+msgstr "Ideogram"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
 msgid "Insert emoji anywhere 🎉"
-msgstr ""
+msgstr "Überall Emoticons einfügen 🎉"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
 msgid ""
@@ -32,12 +32,17 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
+"Schnell Emoticons einfügen, egal an welchem Ort."
+"Drücke ⌘+E um Ideogram zu öffnen und wähle das passende Emoji,"
+"damit es sofort in das aktive Eingabefeld kopiert wird. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
+"Das standartmäßige Tastenkürzel passt nicht?"
+"Ändere es in Systemeinstellungen → Tastatur → Tastenkürzel → Benutzerdefiniert zu einem Passenden."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Code cleanup"
@@ -105,11 +110,11 @@ msgstr ""
 
 #: data/launcher.desktop.in:4
 msgid "Emoji Input"
-msgstr ""
+msgstr "Emoticons einfügen"
 
 #: data/launcher.desktop.in:5
 msgid "Insert emoji anywhere"
-msgstr ""
+msgstr "Überall Emoticons einfügen"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
@@ -118,14 +123,17 @@ msgstr ""
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
-msgstr ""
+msgstr "" 
+"Emoticon;Einfügen;Kopieren;Emoji;Smiley;Bilder;Icons;Tastatur;☺"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr ""
+msgstr "Emoji zum Einfügen auswählen"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
+"Durch Auswählen wird das Emoticon in die Zwischenablage und in " 
+"ein ausgewähltes Eingabefeld kopiert."
