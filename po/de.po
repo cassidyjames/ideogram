@@ -32,8 +32,8 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
-"Schnell Emoticons einfügen, egal an welchem Ort."
-"Drücke ⌘+E um Ideogram zu öffnen und wähle das passende Emoji,"
+"Schnell Emoticons einfügen, egal an welchem Ort. "
+"Drücke ⌘+E um Ideogram zu öffnen und wähle das passende Emoji, "
 "damit es sofort in das aktive Eingabefeld kopiert wird. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
@@ -41,7 +41,7 @@ msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
-"Das standartmäßige Tastenkürzel passt nicht?"
+"Das standartmäßige Tastenkürzel passt nicht? "
 "Ändere es in Systemeinstellungen → Tastatur → Tastenkürzel → Benutzerdefiniert zu einem Passenden."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
