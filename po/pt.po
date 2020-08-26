@@ -1,5 +1,5 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Portuguese translations for com.github.cassidyjames.ideogram package.
+# Copyright (C) 2019 THE com.github.cassidyjames.ideogram'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.ideogram package.
 # André Barata <andretiagob@protonmail.com>, 2020.
 #
@@ -34,21 +34,21 @@ msgid ""
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
 "Insira emojis rapidamente em qualquer lado que conseguir colar texto, "
-"aplicações não nativas incluídas. Pressione ⌘+E para abrir o selecionador de "
+"incluíndo aplicações não nativas. Pressione ⌘+E para abrir o selecionador de "
 "emojis, escolha o emoji que quiser e este é copiado e colado "
-"instantaneamente para dentro de uma entrada de texto. 👍"
+"instantaneamente em qualquer campo de texto selecionado. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like. 😀️"
 msgstr ""
-"Não gosta dos atalhos padrão do teclado? Vá a Definições de Sistema → "
-"Teclado → Atalhos → Personalizar para definir o que quiser ao seu gosto. 😀️"
+"Não gosta do atalho de teclado padrão? Vá a Definições de Sistema → "
+"Teclado → Atalhos → Personalizar para defini-lo ao seu gosto. 😀️"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr "Ícones melhorados graças a Micah Ilbery"
+msgstr "Ícones atualizados por a Micah Ilbery"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
 msgid "Fix .desktop translation error"
@@ -61,11 +61,11 @@ msgstr "Atualizações de traduções"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:32
 msgid "Danish translations thanks to Rasmus Lindegaard"
-msgstr "Traduções em Dinamarquês graças a Rasmus Lindegaard"
+msgstr "Traduções em Dinamarquês por Rasmus Lindegaard"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:33
 msgid "Polish translations thanks to Michał Nowakowski"
-msgstr "Traduções em Polaco graças a Michał Nowakowski"
+msgstr "Traduções em Polaco por Michał Nowakowski"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:39
 msgid "Code cleanup"
@@ -81,23 +81,23 @@ msgstr "Melhorias do estilo de código"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:46
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr "Traduções em Holandês graças a Heimen Stoffels"
+msgstr "Traduções em Holandês por Heimen Stoffels"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:47
 msgid "Italian translations thanks to Mirko Brombin"
-msgstr "Traduções em Italiano graças a Mirko Brombin"
+msgstr "Traduções em Italiano por Mirko Brombin"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:48
 msgid "Galacian translations thanks to @riesp"
-msgstr "Traduções em Galego graças a @riesp"
+msgstr "Traduções em Galego por @riesp"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:54
 msgid "¡Hola! Spanish translations thanks to Alain (@alainm23)"
-msgstr "¡Hola! Traduções em Espanhol graças a Alain (@alainm23)"
+msgstr "¡Hola! Traduções em Espanhol por Alain (@alainm23)"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:59
 msgid "Bonjour! French translations thanks to @NathanBnm"
-msgstr "Bonjour! Traduções em Francês graças a @NathanBnm"
+msgstr "Bonjour! Traduções em Francês por @NathanBnm"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:64
 msgid "Ideogram is now translatable."
@@ -115,7 +115,7 @@ msgstr "Estilo mais confiável"
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:79
 msgid "ℹ More descriptive in-app copy and a yellow accent color."
 msgstr ""
-"ℹ Copia mais descritiva dentro da aplicação e uma cor de destaque amarela."
+"ℹ Texto mais descritivo dentro da aplicação e uma cor de destaque amarela."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:84
 msgid "⌨ Set a default keyboard shortcut (⌘+E)."
@@ -149,12 +149,12 @@ msgstr ""
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr "Selecione um Emojy para Inserir"
+msgstr "Selecione um emojy para inserir"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
-"Ao selecionar vai copiar o emoji para a área de transferência e cola-lo numa "
-"entrada de texto."
+"Ao selecionar vai copiar o emoji para a área de transferência e colá-lo em "
+"qualquer campo de texto selecionado."
