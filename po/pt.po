@@ -34,7 +34,7 @@ msgid ""
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
 "Insira emojis rapidamente em qualquer lado que conseguir colar texto, "
-"incluíndo aplicações não nativas. Pressione ⌘+E para abrir o selecionador de "
+"incluindo aplicações não nativas. Pressione ⌘+E para abrir o selecionador de "
 "emojis, escolha o emoji que quiser e este é copiado e colado "
 "instantaneamente em qualquer campo de texto selecionado. 👍"
 
@@ -48,7 +48,7 @@ msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Refreshed icons thanks to Micah Ilbery"
-msgstr "Ícones atualizados por a Micah Ilbery"
+msgstr "Ícones atualizados por Micah Ilbery"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
 msgid "Fix .desktop translation error"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr "Selecione um emojy para inserir"
+msgstr "Selecione um emoji para inserir"
 
 #: src/MainWindow.vala:53
 msgid ""
