@@ -1,7 +1,7 @@
 # Turkish translations for com.github.cassidyjames.ideogram package.
 # Copyright (C) 2019 THE com.github.cassidyjames.ideogram'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.ideogram package.
-# Automatically generated, 2019.
+# Safak Genisol, 2020.
 #
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 20:45+0000\n"
 "PO-Revision-Date: 2019-01-25 19:01-0700\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Safak Genisol <Bjksafak45@gmail.com>\n"
 "Language-Team: none\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr ""
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:33
 msgid "Ideogram"
-msgstr ""
+msgstr "Ideogram"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
 msgid "Insert emoji anywhere 🎉"
-msgstr ""
+msgstr "Emojileri istediğiniz yere yerleştirin 🎉"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
 msgid ""
@@ -32,28 +32,33 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
+"Yerel olmayan uygulamalar da dahil olmak üzere metni yapıştırabileceğiniz her yere hızla emoji ekleyin."
+"Emoji seçiciyi açmak için ⌘ + E tuşlarına basın, istediğiniz emojiyi seçin ve
+"Seçtiğiniz emoji anında kopyalanır ve herhangi bir odaklanmış metin girişine yapıştırılır. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
+"Varsayılan klavye kısayolunu bilmiyormusunuz? Sistem Ayarlarına Git → "
+"İstediğiniz bir şeye ayarlamak için Klavye → Kısayollar → Özel."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Code cleanup"
-msgstr ""
+msgstr "Kod temizleme"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
 msgid "Fixed GTK_CSD issue on other OSes"
-msgstr ""
+msgstr "Diğer işletim sistemlerinde GTK_CSD sorunu düzeltildi"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
 msgid "Improved code style"
-msgstr ""
+msgstr "Geliştirilmiş kod stili"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
 msgid "Translation updates"
-msgstr ""
+msgstr "Çeviri güncellemeleri"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:27
 msgid "Dutch translations thanks to Heimen Stoffels"
@@ -101,31 +106,33 @@ msgstr ""
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:108
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Emoji Input"
-msgstr ""
+msgstr "Emoji Girişi"
 
 #: data/launcher.desktop.in:5
 msgid "Insert emoji anywhere"
-msgstr ""
+msgstr "Emojiyi istediğiniz yere ekleyin"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
-msgstr ""
+msgstr "com.github.cassidyjames.ideogram"
 
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
-msgstr ""
+msgstr "emoji;ekle;düzenle;yapıştır;ifadeler;gülen;gülümsemeleri;resimler;simgeler;klavyeyi;☺;"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr ""
+msgstr "Eklenecek Emoji'yi seçin"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
+"Seçildiğinde emoji panoya kopyalanır ve herhangi bir odaklanılmış "
+"metini yapıştırılır."
