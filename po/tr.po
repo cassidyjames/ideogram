@@ -1,30 +1,32 @@
 # Turkish translations for com.github.cassidyjames.ideogram package.
 # Copyright (C) 2019 THE com.github.cassidyjames.ideogram'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the com.github.cassidyjames.ideogram package.
-# Automatically generated, 2019.
 #
+# Automatically generated, 2019.
+# Safak <bjksafak45@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: com.github.cassidyjames.ideogram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-06 20:45+0000\n"
-"PO-Revision-Date: 2019-01-25 19:01-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-09-25 08:48+0300\n"
+"Last-Translator: Safak <bjksafak45@gmail.com>\n"
+"Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:7
 #: data/launcher.desktop.in:3 src/MainWindow.vala:33
 msgid "Ideogram"
-msgstr ""
+msgstr "Ideogram"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:8
 msgid "Insert emoji anywhere 🎉"
-msgstr ""
+msgstr "Herhangi bir yere emoji ekleyin 🎉"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:10
 msgid ""
@@ -32,100 +34,110 @@ msgid ""
 "Hit ⌘+E to open the emoji picker, choose the emoji you want, and it’s "
 "instantly copied and pasted into any focused text input. 👍"
 msgstr ""
+"Yerel olmayan uygulamalar da dahil olmak üzere metni yapıştırabileceğiniz her"
+" yere hızla emoji ekleyin."
+"Emoji seçiciyi açmak için ⌘ + E tuşlarına basın, istediğiniz emojiyi seçin."
+"anında kopyalanıp herhangi bir odaklanmış metin girişine yapıştırılır. 👍"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:11
 msgid ""
 "Not feeling the default keyboard shortcut? Head to System Settings → "
 "Keyboard → Shortcuts → Custom to set it to anything you’d like."
 msgstr ""
+"Varsayılan klavye kısayolunu hissetmiyor musunuz? Sistem Ayarlarına Git →"
+"İstediğiniz herhangi bir şeye ayarlamak için Klavye → Kısayollar → Özel."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:20
 msgid "Code cleanup"
-msgstr ""
+msgstr "Kod temizleme"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:22
 msgid "Fixed GTK_CSD issue on other OSes"
-msgstr ""
+msgstr "Diğer işletim sistemlerinde GTK_CSD sorunu düzeltildi"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:23
 msgid "Improved code style"
-msgstr ""
+msgstr "Geliştirilmiş kod stili"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:25
 msgid "Translation updates"
-msgstr ""
+msgstr "Çeviri güncellemeleri"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:27
 msgid "Dutch translations thanks to Heimen Stoffels"
-msgstr ""
+msgstr "Heimen Stoffels Hollandaca çeviri"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:28
 msgid "Italian translations thanks to Mirko Brombin"
-msgstr ""
+msgstr "Mirko Brombin Italyanca çeviri"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:29
 msgid "Galacian translations thanks to @riesp"
-msgstr ""
+msgstr "@Riesp Galiçya çeviri"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:35
 msgid "¡Hola! Spanish translations thanks to Alain (@alainm23)"
-msgstr ""
+msgstr "¡Hola! Alain İspanyolca çeviri(@ alainm23)"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:40
 msgid "Bonjour! French translations thanks to @NathanBnm"
-msgstr ""
+msgstr "Bonjour! Fransızca çeviri @NathanBnm"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:45
 msgid "Ideogram is now translatable."
-msgstr ""
+msgstr "İdeogram artık çevrilebilir."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:50
 msgid "Happy new year! This release contains AppData fixes."
-msgstr ""
+msgstr "Yeni Yılınız mutlu olsun! Bu sürüm, AppData düzeltmelerini içerir."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:55
 msgid "More reliable styling"
-msgstr ""
+msgstr "Daha güvenilir stil"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:60
 msgid "ℹ More descriptive in-app copy and a yellow accent color."
-msgstr ""
+msgstr "ℹ Daha açıklayıcı uygulama içi metin ve sarı vurgu rengi."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:65
 msgid "⌨ Set a default keyboard shortcut (⌘+E)."
-msgstr ""
+msgstr "⌨ Varsayılan bir klavye kısayolu ayarlayın (⌘ + E)."
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:70
 msgid "🎉 Initial release for AppCenter"
-msgstr ""
+msgstr "🎉 AppCenter için ilk sürüm"
 
 #: data/com.github.cassidyjames.ideogram.appdata.xml.in:108
 msgid "Cassidy James Blaede"
-msgstr ""
+msgstr "Cassidy James Blaede"
 
 #: data/launcher.desktop.in:4
 msgid "Emoji Input"
-msgstr ""
+msgstr "Emoji Girişi"
 
 #: data/launcher.desktop.in:5
 msgid "Insert emoji anywhere"
-msgstr ""
+msgstr "Herhangi bir yere emoji ekleyin"
 
 #: data/launcher.desktop.in:8
 msgid "com.github.cassidyjames.ideogram"
-msgstr ""
+msgstr "com.github.cassidyjames.ideogram"
 
 #: data/launcher.desktop.in:12
 msgid ""
 "emoji;insert;copy;paste;emoticons;smiley;smilies;pictures;icons;keyboard;☺;"
 msgstr ""
+"emoji; ekle; kopyala; yapıştır; ifadeler; gülen yüzler; ifadeler; resimler;"
+" simgeler; klavye; ☺;"
 
 #: src/MainWindow.vala:50
 msgid "Select Emoji to Insert"
-msgstr ""
+msgstr "Eklenecek Emojiyi Seçin"
 
 #: src/MainWindow.vala:53
 msgid ""
 "Selecting will copy the emoji to the clipboard and paste into any focused "
 "text input."
 msgstr ""
+"Seçmek, emojiyi panoya kopyalar ve herhangi bir odaklanmış"
+"metin girişi."
