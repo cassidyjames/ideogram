@@ -16,11 +16,15 @@ finish-args:
   - '--talk-name=ca.desrt.dconf'
   - '--env=DCONF_USER_CONFIG_DIR=.config/dconf'
 modules:
-  - name: media-keys,
+  - name: media-keys
     buildsystem: simple
     build-commands:
       - 'install -D data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in /app/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.media-keys.gschema.xml'
       - "sed -i -e 's/@GETTEXT_PACKAGE@/gnome-settings-daemon/g' /app/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.media-keys.gschema.xml"
+    sources:
+      - type: archive
+        url: https://github.com/GNOME/gnome-settings-daemon/archive/GNOME_SETTINGS_DAEMON_3_36_1.tar.gz
+        sha256: e345411f79b4a1175349e144cc772c7a9eb7ab9ae3a542a73609bee471b72748
 
   - name: ideogram
     buildsystem: meson
