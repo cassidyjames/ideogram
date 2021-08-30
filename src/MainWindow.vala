@@ -110,7 +110,7 @@ public class MainWindow : Gtk.Window {
         hide ();
 
         // Wait 500ms to ensure paste was successful
-        Timeout.add(500, () => {
+        Timeout.add (500, () => {
             close ();
 
             return false;
