@@ -74,19 +74,29 @@ public class MainWindow : Gtk.Window {
         entry.grab_focus ();
 
         entry.changed.connect (() => {
-            Gtk.Clipboard.get_default (this.get_display ()).set_text (entry.text, -1);
+            var clipboard = Gtk.Clipboard.get_for_display (entry.get_display (), Gdk.SELECTION_CLIPBOARD);
+            clipboard.set_text (entry.text, -1);
             hide ();
             paste ();
-            close ();
+            Timeout.add(500, () => {
+                close ();
+                return false;
+            });
         });
 
         if (is_terminal == false) {
             entry.focus_in_event.connect (() => {
-                close ();
+                Timeout.add(500, () => {
+                    close ();
+                    return false;
+                });
             });
 
             focus_out_event.connect ((event) => {
-                close ();
+                Timeout.add(500, () => {
+                    close ();
+                    return false;
+                });
                 return Gdk.EVENT_STOP;
             });
         }
