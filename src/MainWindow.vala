@@ -1,5 +1,5 @@
 /*
-* Copyright © 2018–2019 Cassidy James Blaede (https://cassidyjames.com)
+* Copyright © 2018–2021 Cassidy James Blaede (https://cassidyjames.com)
 *
 * This program is free software; you can redistribute it and/or
 * modify it under the terms of the GNU General Public
@@ -74,19 +74,20 @@ public class MainWindow : Gtk.Window {
         entry.grab_focus ();
 
         entry.changed.connect (() => {
-            Gtk.Clipboard.get_default (this.get_display ()).set_text (entry.text, -1);
-            hide ();
+            var clipboard = Gtk.Clipboard.get_for_display (entry.get_display (), Gdk.SELECTION_CLIPBOARD);
+            clipboard.set_text (entry.text, -1);
             paste ();
-            close ();
+            queue_close ();
         });
 
         if (is_terminal == false) {
             entry.focus_in_event.connect (() => {
-                close ();
+                queue_close ();
             });
 
             focus_out_event.connect ((event) => {
-                close ();
+                queue_close ();
+
                 return Gdk.EVENT_STOP;
             });
         }
@@ -103,6 +104,17 @@ public class MainWindow : Gtk.Window {
     private void paste () {
         perform_key_event ("<Control>v", true, 100);
         perform_key_event ("<Control>v", false, 0);
+    }
+
+    private void queue_close () {
+        hide ();
+
+        // Wait 500ms to ensure paste was successful
+        Timeout.add (500, () => {
+            close ();
+
+            return false;
+        });
     }
 
     private static void perform_key_event (string accelerator, bool press, ulong delay) {
